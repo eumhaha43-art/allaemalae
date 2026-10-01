@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ice-float">
+<path id="cube-left" d="M5 8.5L16 14V24L5 18.5V8.5Z" fill="#D3E2A0"/>
+<path id="cube-right" d="M27 8.5L16 14V24L27 18.5V8.5Z" fill="#B9CD6E"/>
+<path id="cube-top" d="M16 3L27 8.5L16 14L5 8.5L16 3Z" fill="#EEF4DC"/>
+<path id="water" d="M0 20C2.7 17.6 5.3 17.6 8 20C10.7 22.4 13.3 22.4 16 20C18.7 17.6 21.3 17.6 24 20C26.7 22.4 29.3 22.4 32 20V26H0V20Z" fill="#ABC64B"/>
+</g>
+</svg>

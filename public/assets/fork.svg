@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="13" height="42" viewBox="0 0 13 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="fork">
+<line id="Line 47" x1="6.5" y1="15" x2="6.5" y2="42" stroke="#1F1F1F" stroke-width="3"/>
+<g id="Rectangle 22">
+<path d="M0 2C0 0.895431 0.895431 0 2 0H11C12.1046 0 13 0.895431 13 2V14C13 15.1046 12.1046 16 11 16H2C0.89543 16 0 15.1046 0 14V2Z" fill="#151515"/>
+</g>
+<rect id="Rectangle 23" x="3" width="2" height="6" fill="white"/>
+<rect id="Rectangle 24" x="8" width="2" height="6" fill="white"/>
+</g>
+</svg>

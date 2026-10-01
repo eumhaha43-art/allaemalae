@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="48" height="60" viewBox="0 0 48 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="jeans">
+<path id="legs" d="M5 7H43L41.4 58.6C41.37 59.38 40.73 60 39.95 60H29.05C28.31 60 27.69 59.44 27.61 58.71L24 33.4L20.39 58.71C20.31 59.44 19.69 60 18.95 60H8.05C7.27 60 6.63 59.38 6.6 58.6L5 7Z" fill="#FF92C5"/>
+<path id="waist" d="M6.2 1H41.8C43.01 1 44 1.99 44 3.2V8.4H4V3.2C4 1.99 4.99 1 6.2 1Z" fill="#FFC9E2"/>
+<circle id="button" cx="24" cy="4.7" r="1.7" fill="white"/>
+<path id="fly" d="M24 10.6V19.6" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+<path id="pocket-left" d="M8.6 10.9C9.4 19.6 17.8 20.6 19.4 10.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+<path id="pocket-right" d="M39.4 10.9C38.6 19.6 30.2 20.6 28.6 10.9" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+<rect id="watch-pocket" x="31.6" y="11.4" width="4.8" height="3.8" rx="0.9" fill="#FFF1F8"/>
+<path id="hem-left" d="M7.5 53.2H19.6" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+<path id="hem-right" d="M28.4 53.2H40.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+</g>
+</svg>

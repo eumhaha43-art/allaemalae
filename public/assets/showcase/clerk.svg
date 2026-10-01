@@ -1,0 +1,21 @@
+<svg width="70" height="82" viewBox="0 0 70 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes wave { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-16deg); } }
+#arm { transform-origin: 14px 46px; animation: wave 1.4s ease-in-out infinite; }
+</style>
+<g id="character">
+<rect id="foot_left" x="17" y="70" width="14" height="10" rx="5" fill="#0C0C0C"/>
+<rect id="foot_right" x="39" y="70" width="14" height="10" rx="5" fill="#0C0C0C"/>
+<g id="arm">
+<path d="M14 46C10 44 6 40 5 30" stroke="#0C0C0C" stroke-width="7" stroke-linecap="round"/>
+<circle cx="5" cy="28" r="4.5" fill="#0C0C0C"/>
+</g>
+<path id="body" d="M8 37C8 23.193 19.193 12 33 12C46.807 12 58 23.193 58 37V64C58 67.314 55.314 70 52 70H14C10.686 70 8 67.314 8 64V37Z" fill="#0C0C0C"/>
+<circle id="eye_left" cx="23.1" cy="31.2" r="2.6" fill="white"/>
+<circle id="eye_right" cx="42.85" cy="31.2" r="2.6" fill="white"/>
+<path id="mouth" d="M26.76 41.1H39.24C39.24 44.547 36.447 47.34 33 47.34C29.553 47.34 26.76 44.547 26.76 41.1Z" fill="white"/>
+</g>
+<g id="hat" transform="translate(67.36 2.64) scale(-1 1)">
+<path d="M47.8564 0C51.3038 0 54.0986 2.79479 54.0986 6.24219V19.2461H49.1924C49.1804 19.2462 49.1683 19.2471 49.1562 19.2471H4.94141C2.21235 19.2469 0 17.0338 0 14.3047C0.000146106 11.5757 2.21244 9.36345 4.94141 9.36328H15.6055V6.24219C15.6055 2.79487 18.4004 0.000134285 21.8477 0H47.8564Z" fill="#FAC139"/>
+</g>
+</svg>

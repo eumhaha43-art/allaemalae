@@ -1,0 +1,28 @@
+/*
+  홈 섹션이 차례로 떠오른다 — RiseIn. 투명한 채 16px 아래에서 제자리로.
+
+  backwards — 제 차례가 오기 전에는 첫 칸(투명)에 있어야 한다. 끝난 뒤에는 아무
+  것도 남기지 않는다(transform 이 남으면 안의 fixed 팝업이 그 상자에 갇힌다).
+  움직임 줄이기면 그냥 놓인다.
+*/
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rise {
+  animation: rise-in 400ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  animation-delay: calc(var(--rise-order, 0) * 80ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+}

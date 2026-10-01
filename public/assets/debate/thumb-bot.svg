@@ -1,0 +1,28 @@
+<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="bot-gray-clip"><circle cx="25" cy="25" r="25"/></clipPath>
+</defs>
+
+<g id="Home">
+
+<g id="ai">
+<rect width="50" height="50" rx="25" fill="#d7d7d7"/>
+<g id="face">
+<g id="Mask group">
+<mask id="mask0_856_4971" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
+<circle id="Ellipse 69" cx="25" cy="25" r="25" fill="#8e8e8e"/>
+</mask>
+<g clip-path="url(#bot-gray-clip)">
+<path id="Rectangle 62" d="M10 30C10 21.7157 16.7157 15 25 15C33.2843 15 40 21.7157 40 30V51H10V30Z" fill="#8e8e8e"/>
+</g>
+</g>
+<rect id="eye_left" x="17.4209" y="25" width="3.09201" height="3.09201" rx="1.546" fill="white"/>
+<rect id="eye_right" x="29.1704" y="25" width="3.09201" height="3.09201" rx="1.546" fill="white"/>
+<path id="mouth" d="M21.1313 32.4208H28.5522C28.5522 34.47 26.891 36.1312 24.8418 36.1312C22.7926 36.1312 21.1313 34.47 21.1313 32.4208Z" fill="white"/>
+<g id="hat">
+<path id="Union" d="M32.8105 9.72656C34.7244 9.72656 36.2764 11.2785 36.2764 13.1924V20H10.335C9.04546 20 8 18.9545 8 17.665C8.00006 16.3756 9.04549 15.3301 10.335 15.3301H14.7949V13.1924C14.7949 11.2785 16.3469 9.72656 18.2607 9.72656H32.8105Z" fill="#b3b3b3"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- flag.svg 와 같은 그림, 선 색만 초록(primary-700)이다 — 공지가 초록 띠로 바뀌면서 회색 선이 겉돌았다 -->
+<g id="icon/flag">
+<path id="Vector" d="M3 2V12.9375M3 2.625H10.8125L9 5.8125L10.8125 8.9375H3" stroke="#006743" stroke-width="1.0625" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

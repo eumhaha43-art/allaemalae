@@ -1,0 +1,38 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="60.3" height="46.7999" viewBox="0 0 60.3 46.7999" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!--
+  바코드 스캐너 — 빨간 창과 아래로 떨어지는 빛이 깜빡인다.
+
+  움직임을 파일 안에 넣는 이유: 이 그림은 <img> 로 불러 쓴다. 그러면 바깥
+  CSS 가 안쪽 도형에 닿지 않아, 컴포넌트에서 빛만 골라 깜빡이게 할 수가 없다.
+  통째로 깜빡이면 검은 몸통까지 같이 사라진다. <img> 로 불러도 SVG 안에 적어
+  둔 CSS 는 그대로 도므로 여기에 둔다.
+
+  두 번 빠르게 깜빡이고 쉰다 — 계속 켜졌다 꺼지면 눈에 거슬리고, 스캐너가
+  한 번 읽는 리듬이 이쪽이다.
+-->
+<style>
+  .scan-light,
+  .scan-beam {
+    animation: scan-blink 2.6s ease-in-out infinite;
+  }
+
+  @keyframes scan-blink {
+    0%, 40% { opacity: 1; }
+    45% { opacity: 0.22; }
+    51% { opacity: 1; }
+    57% { opacity: 0.22; }
+    63%, 100% { opacity: 1; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .scan-light,
+    .scan-beam { animation: none; }
+  }
+</style>
+<g id="Frame 906">
+<rect id="Rectangle 28" x="35.1" y="10.7999" width="36" height="9.9" transform="rotate(90 35.1 10.7999)" fill="#232323"/>
+<rect id="Rectangle 26" x="10.8" width="38.7" height="21.6" rx="10.8" fill="#232323"/>
+<rect class="scan-light" id="Rectangle 27" x="16.2" y="6.2999" width="27.9" height="9" rx="4.5" fill="#FF371D"/>
+<path class="scan-beam" id="Rectangle 29" d="M19.282 9.8999H41.3686L60.3 45.8999H0L19.282 9.8999Z" fill="#FF371D" fill-opacity="0.5"/>
+</g>
+</svg>
